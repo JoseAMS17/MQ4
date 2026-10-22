@@ -615,16 +615,32 @@
       "Root"
     ],
     [
-      "4bee1bd3-b125-402d-bf22-cddc4e77fe82",
-      "PCB_carrito"
+      "725e82c3-e9f9-4a44-af85-5e5ab84eb5bc",
+      "DRV8871-2"
     ],
     [
-      "ec5285e5-f779-4de1-9baa-268d06fec023",
-      "Alimentacion"
+      "cd722ddc-e27b-44d0-843f-2fb12e56e1e6",
+      "Esp32 C3 WROOM-02"
     ],
     [
       "22f25f5d-c9de-4149-80f3-3e82ca3a6fd2",
       "Diagrama de bloques"
+    ],
+    [
+      "6eb3d977-aa34-4ca1-b06c-4f53c7078ffc",
+      "DRV8871-1"
+    ],
+    [
+      "797b820f-cf8d-4585-bbd0-3c3327e2d35c",
+      "DRV8871-3"
+    ],
+    [
+      "98827c66-e989-4161-8b2f-86e22df5ad83",
+      "DRV8871-4"
+    ],
+    [
+      "ae71003d-3175-4ba0-ac7b-f0f02b33db79",
+      "AP63203"
     ]
   ],
   "text_variables": {}
