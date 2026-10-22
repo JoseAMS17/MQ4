@@ -306,7 +306,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:AP63203WU"
+		(symbol "Regulator_Switching:AP63205WU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -318,7 +318,7 @@
 					)
 				)
 			)
-			(property "Value" "AP63203WU"
+			(property "Value" "AP63205WU"
 				(at 2.54 6.35 0)
 				(effects
 					(font
@@ -344,7 +344,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -371,7 +371,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP63203WU_0_1"
+			(symbol "AP63205WU_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -384,7 +384,7 @@
 					)
 				)
 			)
-			(symbol "AP63203WU_1_1"
+			(symbol "AP63205WU_1_1"
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -795,6 +795,17 @@
 		)
 		(uuid "37885094-ef8d-441a-8fbf-1d2a33ae23ba")
 	)
+	(hierarchical_label "5V"
+		(shape output)
+		(at 158.75 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40787d1d-b493-4113-9a47-6821cb6ce1d4")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 147.32 86.36 180)
@@ -816,17 +827,6 @@
 			(justify right)
 		)
 		(uuid "dba72e93-942c-4f2e-bf0b-a72ffcae3751")
-	)
-	(hierarchical_label "3.3V"
-		(shape output)
-		(at 158.75 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb30e756-f8c3-46b9-8afb-89bb404b8307")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -857,7 +857,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 159.766 83.566 0)
 			(effects
 				(font
@@ -926,7 +926,7 @@
 				)
 			)
 		)
-		(property "Value" "3.9uH"
+		(property "Value" "4.7uH"
 			(at 137.16 72.39 90)
 			(effects
 				(font
@@ -1063,7 +1063,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "22uF"
 			(at 149.606 83.566 0)
 			(effects
 				(font
@@ -1109,86 +1109,6 @@
 			(project "MQ4"
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/ae71003d-3175-4ba0-ac7b-f0f02b33db79"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Switching:AP63203WU")
-		(at 107.95 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66b6e2b2-3f6e-47fe-98b3-019121b65100")
-		(property "Reference" "U5"
-			(at 107.95 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP63203WU"
-			(at 107.95 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 107.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
-			(at 107.95 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "9ff83884-021a-4e08-b293-e2e5dae6e4d1")
-		)
-		(pin "5"
-			(uuid "2c1224df-b161-4301-ae12-5debc7ef0550")
-		)
-		(pin "1"
-			(uuid "359fec47-b600-4e79-ae80-928a7237dcbb")
-		)
-		(pin "2"
-			(uuid "c40ddd52-97bf-4d6e-a69d-d96db60f3252")
-		)
-		(pin "4"
-			(uuid "b01d34ab-ff03-4dc3-8ba7-06dc3bc231ab")
-		)
-		(pin "3"
-			(uuid "2b731cb9-0547-4850-99ad-daa1fa229e75")
-		)
-		(instances
-			(project "MQ4"
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/ae71003d-3175-4ba0-ac7b-f0f02b33db79"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -1258,6 +1178,86 @@
 			(project "MQ4"
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/ae71003d-3175-4ba0-ac7b-f0f02b33db79"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Switching:AP63205WU")
+		(at 107.95 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c01b0fbc-21bf-47f3-932f-5cf214f2db97")
+		(property "Reference" "U8"
+			(at 107.95 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63205WU"
+			(at 107.95 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 107.95 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
+			(at 107.95 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5218505f-9a31-4e0b-bb3c-f76a27bf8c40")
+		)
+		(pin "5"
+			(uuid "7a2e4df2-8a12-43a4-88d6-b6ca0cbfdb69")
+		)
+		(pin "6"
+			(uuid "023d45fb-74da-4181-abb0-a435157d5af1")
+		)
+		(pin "4"
+			(uuid "b82e037a-0caa-4ad3-ac2a-125f2fd28bd5")
+		)
+		(pin "1"
+			(uuid "ff3e5848-9091-4587-8b01-cda7669fc860")
+		)
+		(pin "2"
+			(uuid "4251f849-4388-4777-8a0e-cb8808614e17")
+		)
+		(instances
+			(project "MQ4"
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/ae71003d-3175-4ba0-ac7b-f0f02b33db79"
+					(reference "U8")
 					(unit 1)
 				)
 			)
