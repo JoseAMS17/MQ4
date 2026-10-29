@@ -665,7 +665,7 @@
         "uuid": "3122b748-b18a-4430-81c9-b624cd1e321d"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR2,#PWR5,#PWR10-35,C18-19,D3,J7,LED1,R14-15",
+    "used_designators": "#FLG1-2,#PWR2,#PWR5,#PWR10-43,C18-19,D3,J7-8,LED1-4,R14-15",
     "variants": []
   },
   "sheets": [
@@ -712,6 +712,18 @@
     [
       "9f23ed38-ab53-403f-b27d-c972639a64ce",
       "Led RGB Prog."
+    ],
+    [
+      "c9d1680b-8f2f-4f59-bf1e-da487cc2f825",
+      "Led RGB Prog.1"
+    ],
+    [
+      "87006e72-b3d7-4825-a1e2-0319a210700e",
+      "Led RGB Prog.2"
+    ],
+    [
+      "3643aabf-a112-49f3-a088-b21e86987086",
+      "Led RGB Prog.3"
     ]
   ],
   "text_variables": {},
