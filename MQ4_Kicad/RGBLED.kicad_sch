@@ -5,13 +5,13 @@
 	(uuid "df748efe-f211-410a-915b-ff345c962fa0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "lcsc_imported:XL-5050RGBC-WS2812B"
+		(symbol "lcsc_imported:WS2812B-MINI-V3J"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
+			(property "Reference" "U"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "XL-5050RGBC-WS2812B"
+			(property "Value" "WS2812B-MINI-V3J"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C2843785_LED-SMD_4P-L5_0-W5_0-BL_XL-5050RGBC"
+			(property "Footprint" "lcsc_footprints:C22371519_LED-SMD_4P-L3_5-W3_5-P1_80-LS6_2_WS2812B-MINI-V3J"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42,7 +42,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404120946_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412021734_Worldsemi-WS2812B-MINI-V3J_C22371519.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +53,7 @@
 					)
 				)
 			)
-			(property "Description" "XL-5050RGBC-WS2812B"
+			(property "Description" "WS2812B-MINI-V3J"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +64,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C2843785"
+			(property "LCSC" "C22371519"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -75,7 +75,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(property "Manufacturer" "worldsemi"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,10 +86,10 @@
 					)
 				)
 			)
-			(symbol "XL-5050RGBC-WS2812B_1_1"
+			(symbol "WS2812B-MINI-V3J_1_1"
 				(rectangle
-					(start -6.35 3.81)
-					(end 6.35 -3.81)
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -99,7 +99,7 @@
 					)
 				)
 				(circle
-					(center -5.08 2.54)
+					(center -6.35 2.54)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -110,7 +110,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 1.27 0)
+					(at -10.16 1.27 0)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -128,9 +128,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -1.27 0)
+					(at -10.16 -1.27 0)
 					(length 2.54)
-					(name "DOU"
+					(name "DOUT"
 						(effects
 							(font
 								(size 1 1)
@@ -146,7 +146,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 8.89 -1.27 180)
+					(at 10.16 -1.27 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -164,7 +164,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 8.89 1.27 180)
+					(at 10.16 1.27 180)
 					(length 2.54)
 					(name "DIN"
 						(effects
@@ -461,7 +461,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 154.94 76.2)
+			(xy 154.94 76.2) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -471,7 +471,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 77.47) (xy 154.94 76.2)
+			(xy 157.48 77.47) (xy 157.48 76.2)
 		)
 		(stroke
 			(width 0)
@@ -481,7 +481,7 @@
 	)
 	(hierarchical_label "DIN"
 		(shape input)
-		(at 152.4 73.66 0)
+		(at 154.94 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -500,126 +500,6 @@
 			(justify right)
 		)
 		(uuid "a3a7e57c-fbc1-4fc7-a9c3-73ce3f9c67af")
-	)
-	(symbol
-		(lib_id "lcsc_imported:XL-5050RGBC-WS2812B")
-		(at 143.51 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d30b94b-39db-4bb9-9889-c187b041867c")
-		(property "Reference" "LED1"
-			(at 143.51 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL-5050RGBC-WS2812B"
-			(at 143.51 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C2843785_LED-SMD_4P-L5_0-W5_0-BL_XL-5050RGBC"
-			(at 143.51 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404120946_XINGLIGHT-XL-5050RGBC-WS2812B_C2843785.pdf"
-			(at 141.224 74.803 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XL-5050RGBC-WS2812B"
-			(at 143.51 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2843785"
-			(at 143.51 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT(成兴光)"
-			(at 143.51 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1dc57267-7548-41a0-a861-9760d267df5a")
-		)
-		(pin "3"
-			(uuid "21be6b3f-b173-4599-9d98-73bdd17e5ff6")
-		)
-		(pin "4"
-			(uuid "357f3570-f404-47e5-8cbe-0517ccde874a")
-		)
-		(pin "2"
-			(uuid "e1f58398-467a-4c30-8b09-a8daf2169dc6")
-		)
-		(instances
-			(project "MQ4"
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/3643aabf-a112-49f3-a088-b21e86987086"
-					(reference "LED4")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/87006e72-b3d7-4825-a1e2-0319a210700e"
-					(reference "LED3")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/9f23ed38-ab53-403f-b27d-c972639a64ce"
-					(reference "LED1")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/c9d1680b-8f2f-4f59-bf1e-da487cc2f825"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -713,7 +593,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 77.47 0)
+		(at 157.48 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -724,7 +604,7 @@
 		(fields_autoplaced yes)
 		(uuid "c11bafc8-541f-4fad-8f82-59940bce17d6")
 		(property "Reference" "#PWR034"
-			(at 154.94 83.82 0)
+			(at 157.48 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -735,7 +615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 82.55 0)
+			(at 157.48 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -745,7 +625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 77.47 0)
+			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -756,7 +636,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 77.47 0)
+			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -767,7 +647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 77.47 0)
+			(at 157.48 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -796,6 +676,126 @@
 				)
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/c9d1680b-8f2f-4f59-bf1e-da487cc2f825"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:WS2812B-MINI-V3J")
+		(at 144.78 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c242e66c-d505-4a2f-82e6-2bc1e689c950")
+		(property "Reference" "U9"
+			(at 144.78 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-MINI-V3J"
+			(at 144.78 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C22371519_LED-SMD_4P-L3_5-W3_5-P1_80-LS6_2_WS2812B-MINI-V3J"
+			(at 144.78 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412021734_Worldsemi-WS2812B-MINI-V3J_C22371519.pdf"
+			(at 142.494 74.803 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WS2812B-MINI-V3J"
+			(at 144.78 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22371519"
+			(at 144.78 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "worldsemi"
+			(at 144.78 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c3f6e10-c65e-4c39-b2b3-890f93ae6ba5")
+		)
+		(pin "2"
+			(uuid "cdd8987b-fa9b-4b4c-8987-a56ee9aaf3f2")
+		)
+		(pin "4"
+			(uuid "68cc919b-0022-4564-b28b-8dd8a22d22b0")
+		)
+		(pin "3"
+			(uuid "e99b3e33-bbe0-4ff3-8d57-d993db639c6c")
+		)
+		(instances
+			(project "MQ4"
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/3643aabf-a112-49f3-a088-b21e86987086"
+					(reference "U12")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/87006e72-b3d7-4825-a1e2-0319a210700e"
+					(reference "U11")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/9f23ed38-ab53-403f-b27d-c972639a64ce"
+					(reference "U9")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/c9d1680b-8f2f-4f59-bf1e-da487cc2f825"
+					(reference "U10")
 					(unit 1)
 				)
 			)
