@@ -1404,7 +1404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "0805"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 158.4452 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1484,7 +1484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_APV_APH0630"
 			(at 137.16 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1565,7 +1565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 124.1552 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2117,7 +2117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.8652 82.55 0)
 			(hide yes)
 			(show_name no)

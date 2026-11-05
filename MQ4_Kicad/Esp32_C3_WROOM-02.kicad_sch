@@ -1765,17 +1765,6 @@
 		)
 		(uuid "3fa0d33a-a444-4ae8-8a53-cff7c4453035")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 91.44 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4a72d01b-77d3-4c70-b0db-ed7c51654a43")
-	)
 	(hierarchical_label "EN"
 		(shape input)
 		(at 93.98 53.34 0)
@@ -1970,6 +1959,84 @@
 			(project "MQ4"
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/cd722ddc-e27b-44d0-843f-2fb12e56e1e6"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a389d89-2dd6-4846-b18c-7bd2a7dc7a2f")
+		(property "Reference" "#PWR066"
+			(at 91.44 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcb1eb23-919b-45b0-af2c-2e57470b6d46")
+		)
+		(instances
+			(project "MQ4"
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/cd722ddc-e27b-44d0-843f-2fb12e56e1e6"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3192,7 +3259,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+		(property "Footprint" "lcsc_footprints:C2934560_BULETM-SMD_ESPRESSIF_ESP32-C3-WROOM-02-N4-4MB"
 			(at 149.86 64.135 0)
 			(hide yes)
 			(show_name no)

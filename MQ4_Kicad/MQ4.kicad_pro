@@ -646,6 +646,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -665,7 +673,7 @@
         "uuid": "3122b748-b18a-4430-81c9-b624cd1e321d"
       }
     ],
-    "used_designators": "#FLG1-3,#PWR2,#PWR5,#PWR10-65,C18-19,D2-3,J7-9,LED1-4,R14-17,U5,U9-12",
+    "used_designators": "#FLG1-5,#PWR2,#PWR5,#PWR10-66,C18-34,D2-3,J7-9,LED1-4,R14-21,U5,U9-12,USBC1",
     "variants": []
   },
   "sheets": [

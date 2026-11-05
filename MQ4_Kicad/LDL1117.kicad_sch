@@ -1150,12 +1150,6 @@
 		(color 0 0 0 0)
 		(uuid "d4ea00e3-aab3-4b86-ae5e-67258ed5bd1b")
 	)
-	(junction
-		(at 176.53 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7c6f6a9-abbc-498c-9878-93dfa6c6ae50")
-	)
 	(wire
 		(pts
 			(xy 172.72 82.55) (xy 172.72 83.82)
@@ -1215,16 +1209,6 @@
 			(type default)
 		)
 		(uuid "34aac2d8-4339-42b3-bbbf-14327f94be71")
-	)
-	(wire
-		(pts
-			(xy 176.53 82.55) (xy 184.15 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3acf7cb3-d5ba-4ca0-a501-e8a771e9db54")
 	)
 	(wire
 		(pts
@@ -1328,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 82.55) (xy 176.53 82.55)
+			(xy 172.72 82.55) (xy 184.15 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1811,84 +1795,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 176.53 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94461c6c-8f07-421a-934e-1aeb7c61a44a")
-		(property "Reference" "#FLG02"
-			(at 176.53 80.645 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 176.53 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 176.53 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c491930-7de2-49db-870c-4100bbfcebd9")
-		)
-		(instances
-			(project "MQ4"
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/d05d3755-5cbf-44e2-897e-056ffbccf625"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 172.72 87.63 0)
 		(unit 1)
@@ -2125,6 +2031,85 @@
 			(project "MQ4"
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/d05d3755-5cbf-44e2-897e-056ffbccf625"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 147.32 82.55 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df0ab222-627d-4a42-971c-e6c948893166")
+		(property "Reference" "#FLG05"
+			(at 147.32 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 147.574 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 147.32 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4181c43c-7d72-4084-9f37-99e57401c3c5")
+		)
+		(instances
+			(project "MQ4"
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/d05d3755-5cbf-44e2-897e-056ffbccf625"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)

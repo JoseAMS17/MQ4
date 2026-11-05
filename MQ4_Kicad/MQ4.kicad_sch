@@ -1543,6 +1543,12 @@
 		(uuid "0c210ebf-afba-4457-b5fd-d5053646eed0")
 	)
 	(junction
+		(at 213.36 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "747ee40b-e367-4e12-a000-5b0b0f895107")
+	)
+	(junction
 		(at 182.88 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1654,7 +1660,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 109.22) (xy 218.44 109.22)
+			(xy 213.36 109.22) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592e7ecb-0fb7-45f1-bddc-1e0527776490")
+	)
+	(wire
+		(pts
+			(xy 209.55 109.22) (xy 213.36 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3710,6 +3726,85 @@
 			(project "MQ4"
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 213.36 109.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b441a764-3c72-49ad-a158-1fc9cfc56f77")
+		(property "Reference" "#FLG02"
+			(at 213.36 111.125 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 213.106 112.014 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 213.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33ddb4eb-62cb-4191-99c8-f592d8c3cf15")
+		)
+		(instances
+			(project "MQ4"
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)

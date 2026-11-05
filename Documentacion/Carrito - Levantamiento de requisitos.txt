@@ -1,0 +1,130 @@
+﻿==============================================================================
+   INSTITUTO TECNOLÓGICO DE LAS AMÉRICAS (ITLA)  ·  ELECTIVA
+
+   LEVANTAMIENTO DE REQUISITOS
+   Proyecto del carrito — preguntas al profesor y respuestas obtenidas
+==============================================================================
+
+   Asignatura     : Electiva
+   Elaborado por  : Grupo MQ4
+   Fecha          : 17 de septiembre de 2026
+
+------------------------------------------------------------------------------
+
+  Este documento recoge las preguntas planteadas al profesor sobre el
+  alcance del carrito y las respuestas que dio. Cierra con un resumen de lo
+  que ya quedó definido y los puntos que siguen abiertos.
+
+
+==============================================================================
+  1. PREGUNTAS Y RESPUESTAS
+==============================================================================
+
+  [01]  ¿Cuáles son los temas de aprendizaje para demostrar en el carrito?
+
+        > Respuesta: Electrónica de potencia, PWM y puente H.
+
+  --------------------------------------------------------------------------
+
+  [02]  ¿Cuáles son las dimensiones físicas?
+
+        > Respuesta: En base a la disponibilidad.
+
+  --------------------------------------------------------------------------
+
+  [03]  ¿Cuál sería el método de alimentación del carrito?
+
+        > Respuesta: En base a la disponibilidad.
+
+  --------------------------------------------------------------------------
+
+  [04]  ¿Qué método de alimentación se usará?
+
+        > Respuesta: Baterías, según disponibilidad.
+
+  --------------------------------------------------------------------------
+
+  [05]  ¿Cuál es la potencia del motor requerido?
+
+        > Respuesta: La que haya disponible.
+
+  --------------------------------------------------------------------------
+
+  [06]  ¿Qué funcionalidades relacionadas con los temas de aprendizaje
+        necesita el profesor?
+
+        > Respuesta: Diseñar el PCB en base al motor.
+
+  --------------------------------------------------------------------------
+
+  [07]  ¿Cuál sería la interfaz y en qué ambiente se llevará a cabo?
+
+        > Respuesta: Aula y pista.
+
+  --------------------------------------------------------------------------
+
+  [08]  ¿Existe un límite de presupuesto o un kit de componentes específico
+        que debamos usar (ej. Raspberry Pi, ESP32)?
+
+        > Respuesta: Muy limitado.
+
+  --------------------------------------------------------------------------
+
+  [09]  En cuanto a los sensores y luces, ¿son opcionales o hay una lista de
+        funciones obligatorias (ej. seguimiento de líneas, detección de
+        obstáculos, control por Bluetooth)?
+
+        > Respuesta: Por decidir.
+
+  --------------------------------------------------------------------------
+
+  [10]  ¿El carrito debe ser 100 % autónomo, controlado de forma remota o
+        una combinación de ambas?
+
+        > Respuesta: Control de la NASA.
+
+  --------------------------------------------------------------------------
+
+
+==============================================================================
+  2. RESUMEN DE DEFINICIONES
+==============================================================================
+
+  +----------------------+------------------------------------+--------------+
+  | ASPECTO              | DEFINICIÓN                         | ESTADO       |
+  +----------------------+------------------------------------+--------------+
+  | Temas a demostrar    | Electrónica de potencia, PWM y     | DEFINIDO     |
+  |                      | puente H                           |              |
+  | Entregable técnico   | Diseño del PCB a partir del motor  | DEFINIDO     |
+  |                      | elegido                            |              |
+  | Ambiente de uso      | Aula y pista                       | DEFINIDO     |
+  | Presupuesto          | Muy limitado                       | DEFINIDO     |
+  | Dimensiones físicas  | Según la disponibilidad de         | CONDICIONADO |
+  |                      | materiales                         |              |
+  | Alimentación         | Baterías, según disponibilidad     | CONDICIONADO |
+  | Potencia del motor   | La del motor que esté disponible   | CONDICIONADO |
+  | Sensores y luces     | Sin lista de funciones definida    | ABIERTO      |
+  | Modo de control      | Autonomía frente a control remoto, | ABIERTO      |
+  |                      | sin definir                        |              |
+  +----------------------+------------------------------------+--------------+
+
+
+==============================================================================
+  3. PUNTOS QUE SIGUEN ABIERTOS
+==============================================================================
+
+  [ ] Definir la lista de sensores y luces, y cuáles son obligatorias y
+      cuáles opcionales.
+
+  [ ] Aclarar el modo de control: autónomo, remoto o una combinación.
+
+  [ ] Confirmar qué motor y qué batería hay disponibles: de ahí salen las
+      dimensiones, la potencia y el diseño del PCB.
+
+  [ ] Fijar el techo real del presupuesto y la lista de componentes
+      permitidos.
+
+
+==============================================================================
+  Fin del documento
+==============================================================================
