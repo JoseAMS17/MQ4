@@ -20993,9 +20993,81 @@
 		)
 	)
 	(gr_text "Echo GPIO5\nTrigger GPIO6"
-		(at 60.5 108.5 90)
+		(at 60.5 108.725 90)
 		(layer "F.SilkS")
 		(uuid "a297e481-3ec5-4cee-a397-6a34d73a570b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "MQ4"
+		(at 87.925 105.625 90)
+		(layer "F.SilkS")
+		(uuid "81e7a2b9-ef45-4764-bdbd-9fad51ca6935")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Olfanny Moreno 2022-2103"
+		(at 91.175 113.175 90)
+		(layer "F.SilkS")
+		(uuid "c0b17dbb-dffa-4ca4-b5a2-ef02a1d918ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Jose Javier Pacheco 2021-0276"
+		(at 94.45 113.25 90)
+		(layer "F.SilkS")
+		(uuid "a52e2fe4-ea62-4220-8572-3e8685a98577")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Haniel Garcia 2024-0699"
+		(at 97.6 113.375 90)
+		(layer "F.SilkS")
+		(uuid "87f229f5-a726-4635-9ba0-3fec7a4e1fde")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Jose Matos 2019-8955"
+		(at 99.975 113.375 90)
+		(layer "F.SilkS")
+		(uuid "9a355536-ca92-4b70-855f-2a9d00ced696")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "Junior Castillo 2024-0719"
+		(at 102.725 113.325 90)
+		(layer "F.SilkS")
+		(uuid "782d8987-8f26-480d-ad2d-620752beeac9")
 		(effects
 			(font
 				(size 1 1)
