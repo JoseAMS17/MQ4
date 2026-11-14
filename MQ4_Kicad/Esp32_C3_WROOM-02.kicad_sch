@@ -2463,7 +2463,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 115.57 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3167,7 +3167,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5.1k"
 			(at 115.57 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
