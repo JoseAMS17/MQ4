@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|161725000|137995000|1c978852-1620-4bc9-b933-0f188f7402e2|55a0f06c-61ad-43f2-a167-c58eb4d3d325",
+          ""
+        ],
+        [
+          "hole_clearance|161725000|137995000|68fd3f5f-5323-4376-8c37-0d2d74d3e5a4|55a0f06c-61ad-43f2-a167-c58eb4d3d325",
+          ""
+        ],
+        [
+          "hole_clearance|167825000|137995000|1fd4db5a-a0eb-480c-8312-9d0df224311f|b5defff8-b7a7-415b-b07c-55d4179ec769",
+          ""
+        ],
+        [
+          "hole_clearance|167825000|137995000|d52404d5-3331-4bf2-bd28-640c2f278f1f|b5defff8-b7a7-415b-b07c-55d4179ec769",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -687,7 +704,7 @@
         "uuid": "3122b748-b18a-4430-81c9-b624cd1e321d"
       }
     ],
-    "used_designators": "#FLG1-5,#PWR2,#PWR5,#PWR10-72,BUZZER1-2,BZ1,C3,C18-34,D2-5,J7-10,LED1-4,Q1-2,R14-23,U5,U9-12,USBC1",
+    "used_designators": "#FLG1-5,#PWR2,#PWR5,#PWR10-78,BUZZER1-2,BZ1,C3,C18-34,D2-5,J7-10,LED1-4,Q1-2,R14-23,U5,U9-12,USBC1",
     "variants": []
   },
   "sheets": [

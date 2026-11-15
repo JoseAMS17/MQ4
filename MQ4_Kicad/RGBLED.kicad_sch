@@ -5,13 +5,13 @@
 	(uuid "df748efe-f211-410a-915b-ff345c962fa0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "lcsc_imported:WS2812B-MINI-V3J"
+		(symbol "lcsc_imported:WS2812D-F8"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "LED"
 				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -21,7 +21,7 @@
 					)
 				)
 			)
-			(property "Value" "WS2812B-MINI-V3J"
+			(property "Value" "WS2812D-F8"
 				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C22371519_LED-SMD_4P-L3_5-W3_5-P1_80-LS6_2_WS2812B-MINI-V3J"
+			(property "Footprint" "lcsc_footprints:C139126_LED-TH_WS2812D-F8"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42,7 +42,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412021734_Worldsemi-WS2812B-MINI-V3J_C22371519.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811021523_Worldsemi-WS2812D-F8_C139126.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -53,7 +53,7 @@
 					)
 				)
 			)
-			(property "Description" "WS2812B-MINI-V3J"
+			(property "Description" "WS2812D-F8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -64,7 +64,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C22371519"
+			(property "LCSC" "C139126"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,10 +86,10 @@
 					)
 				)
 			)
-			(symbol "WS2812B-MINI-V3J_1_1"
+			(symbol "WS2812D-F8_1_1"
 				(rectangle
-					(start -7.62 3.81)
-					(end 7.62 -3.81)
+					(start -10.16 4.318)
+					(end 10.16 -4.318)
 					(stroke
 						(width 0)
 						(type default)
@@ -99,7 +99,18 @@
 					)
 				)
 				(circle
-					(center -6.35 2.54)
+					(center -8.89 3.048)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 3.048)
 					(radius 0.381)
 					(stroke
 						(width 0)
@@ -110,9 +121,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 1.27 0)
+					(at -12.7 1.27 0)
 					(length 2.54)
-					(name "VDD"
+					(name "DOUT"
 						(effects
 							(font
 								(size 1 1)
@@ -128,9 +139,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -10.16 -1.27 0)
+					(at -12.7 -1.27 0)
 					(length 2.54)
-					(name "DOUT"
+					(name "VDD"
 						(effects
 							(font
 								(size 1 1)
@@ -146,7 +157,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 -1.27 180)
+					(at 12.7 -1.27 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -164,7 +175,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 10.16 1.27 180)
+					(at 12.7 1.27 180)
 					(length 2.54)
 					(name "DIN"
 						(effects
@@ -441,69 +452,79 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 134.62 73.66)
+			(xy 157.48 95.25) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7742e0c7-b63e-4705-ab58-0074f7962962")
+		(uuid "2d928304-cb2c-4c87-b86e-4b965a55aa86")
 	)
 	(wire
 		(pts
-			(xy 133.35 76.2) (xy 134.62 76.2)
+			(xy 123.19 95.25) (xy 132.08 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "789834f7-7579-44bb-8346-dd920c69b62c")
+		(uuid "6bc44ff6-41d9-41f3-a8e5-a46d2adf414e")
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 157.48 76.2)
+			(xy 123.19 91.44) (xy 123.19 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88c8eb65-ff98-4957-8e27-90886656aef0")
+		(uuid "79ae5386-e33d-4b87-a0df-ae5b854ed2ec")
 	)
 	(wire
 		(pts
-			(xy 157.48 77.47) (xy 157.48 76.2)
+			(xy 130.81 92.71) (xy 132.08 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "deb0a58d-37a6-4697-9e57-3ce9258da096")
+		(uuid "91d8e054-4d64-4f5f-8fe0-06bdfd9a976e")
 	)
-	(hierarchical_label "DIN"
-		(shape input)
-		(at 154.94 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 157.48 92.71)
 		)
-		(uuid "28bd8f07-e80b-4bde-a40c-1fc829b806ea")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06c9532-81b6-48e8-9e3b-72cdee6bcbc4")
 	)
 	(hierarchical_label "DOUT"
 		(shape output)
-		(at 133.35 76.2 180)
+		(at 130.81 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a3a7e57c-fbc1-4fc7-a9c3-73ce3f9c67af")
+		(uuid "5264dd32-a557-4c02-8701-c361bea35dd9")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 158.75 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cf2ae0b2-5ccb-4aa3-a6b5-68ac8485b954")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 128.27 73.66 0)
+		(lib_id "lcsc_imported:WS2812D-F8")
+		(at 144.78 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -512,209 +533,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a82ffa1a-62a1-470e-9d2b-6e2d6be87247")
-		(property "Reference" "#PWR035"
-			(at 128.27 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 128.27 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 128.27 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15c1be0f-0373-4a13-a43f-455185620c13")
-		)
-		(instances
-			(project "MQ4"
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/3643aabf-a112-49f3-a088-b21e86987086"
-					(reference "#PWR040")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/87006e72-b3d7-4825-a1e2-0319a210700e"
-					(reference "#PWR038")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/9f23ed38-ab53-403f-b27d-c972639a64ce"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/c9d1680b-8f2f-4f59-bf1e-da487cc2f825"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c11bafc8-541f-4fad-8f82-59940bce17d6")
-		(property "Reference" "#PWR034"
-			(at 157.48 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ff8396a-705e-48bf-88ce-5a071bd4fadc")
-		)
-		(instances
-			(project "MQ4"
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/3643aabf-a112-49f3-a088-b21e86987086"
-					(reference "#PWR041")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/87006e72-b3d7-4825-a1e2-0319a210700e"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/9f23ed38-ab53-403f-b27d-c972639a64ce"
-					(reference "#PWR034")
-					(unit 1)
-				)
-				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/c9d1680b-8f2f-4f59-bf1e-da487cc2f825"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:WS2812B-MINI-V3J")
-		(at 144.78 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c242e66c-d505-4a2f-82e6-2bc1e689c950")
-		(property "Reference" "U9"
-			(at 144.78 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-MINI-V3J"
-			(at 144.78 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C22371519_LED-SMD_4P-L3_5-W3_5-P1_80-LS6_2_WS2812B-MINI-V3J"
+		(uuid "887f2928-bba7-47df-8e9b-39db12bbdbcc")
+		(property "Reference" "LED1"
 			(at 144.78 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812D-F8"
+			(at 144.78 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C139126_LED-TH_WS2812D-F8"
+			(at 144.78 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -724,8 +565,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2412021734_Worldsemi-WS2812B-MINI-V3J_C22371519.pdf"
-			(at 142.494 74.803 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1811021523_Worldsemi-WS2812D-F8_C139126.pdf"
+			(at 142.494 93.853 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -735,8 +576,8 @@
 				)
 			)
 		)
-		(property "Description" "WS2812B-MINI-V3J"
-			(at 144.78 74.93 0)
+		(property "Description" "WS2812D-F8"
+			(at 144.78 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -746,8 +587,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C22371519"
-			(at 144.78 74.93 0)
+		(property "LCSC" "C139126"
+			(at 144.78 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -758,7 +599,106 @@
 			)
 		)
 		(property "Manufacturer" "worldsemi"
-			(at 144.78 74.93 0)
+			(at 144.78 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c071bfc8-3d08-4190-937f-f4e387f2789f")
+		)
+		(pin "2"
+			(uuid "2a60af1d-9e89-497b-a51e-bed8ed451ef9")
+		)
+		(pin "1"
+			(uuid "a2f1953b-ee04-401e-b9ff-f61c17a7b203")
+		)
+		(pin "4"
+			(uuid "f1db687c-a7ab-45a4-bb96-6bad68c02716")
+		)
+		(instances
+			(project "MQ4"
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/3643aabf-a112-49f3-a088-b21e86987086"
+					(reference "LED4")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/87006e72-b3d7-4825-a1e2-0319a210700e"
+					(reference "LED3")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/9f23ed38-ab53-403f-b27d-c972639a64ce"
+					(reference "LED1")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/c9d1680b-8f2f-4f59-bf1e-da487cc2f825"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96b14fa1-4811-4858-b435-5704d26915f6")
+		(property "Reference" "#PWR071"
+			(at 123.19 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 123.19 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -769,33 +709,114 @@
 			)
 		)
 		(pin "1"
-			(uuid "6c3f6e10-c65e-4c39-b2b3-890f93ae6ba5")
-		)
-		(pin "2"
-			(uuid "cdd8987b-fa9b-4b4c-8987-a56ee9aaf3f2")
-		)
-		(pin "4"
-			(uuid "68cc919b-0022-4564-b28b-8dd8a22d22b0")
-		)
-		(pin "3"
-			(uuid "e99b3e33-bbe0-4ff3-8d57-d993db639c6c")
+			(uuid "40681778-1760-43ac-a462-5e0de96de187")
 		)
 		(instances
 			(project "MQ4"
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/3643aabf-a112-49f3-a088-b21e86987086"
-					(reference "U12")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/87006e72-b3d7-4825-a1e2-0319a210700e"
-					(reference "U11")
+					(reference "#PWR075")
 					(unit 1)
 				)
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/9f23ed38-ab53-403f-b27d-c972639a64ce"
-					(reference "U9")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/c9d1680b-8f2f-4f59-bf1e-da487cc2f825"
-					(reference "U10")
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddd98f9a-4580-47aa-bda1-a71ee3dbf022")
+		(property "Reference" "#PWR072"
+			(at 158.75 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66520ada-9671-4f60-8a20-6851ca79a04c")
+		)
+		(instances
+			(project "MQ4"
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/3643aabf-a112-49f3-a088-b21e86987086"
+					(reference "#PWR078")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/87006e72-b3d7-4825-a1e2-0319a210700e"
+					(reference "#PWR076")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/9f23ed38-ab53-403f-b27d-c972639a64ce"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/3122b748-b18a-4430-81c9-b624cd1e321d/c9d1680b-8f2f-4f59-bf1e-da487cc2f825"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
